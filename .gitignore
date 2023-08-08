@@ -12,3 +12,7 @@ tmp/*
 .nrepl*
 .lck
 checkouts/*
+.clj-kondo/.cache
+.lsp/.cache
+.lsp/sqlite.db
+.cpcache
