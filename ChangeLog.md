@@ -1,3 +1,14 @@
+## Changes Between 1.0.0 and 1.1.x (rev count)
+
+Built by [tools.build](https://github.com/clojure/tools.build).
+
+### Dependencies
+
+1. Updates clojurewerkz/support from `1.1.0` to org.lotuc/clojurewerkz_support
+   `1.6.210`
+2. Updates clojurewerkz/propertied from `1.3.0` to
+   org.lotuc/clojurewerkz_propertied `1.4.97`
+
 ## Changes Between 1.0.0-beta8 and 1.0.0-beta9
 
 ### Subscription API Change
