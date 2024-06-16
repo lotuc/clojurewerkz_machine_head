@@ -1,11 +1,11 @@
 {:paths ["src/clojure" "resources"]
- :deps {org.clojure/clojure {:mvn/version "1.8.0"}
+ :deps {org.clojure/clojure {:mvn/version "1.11.3"}
         org.eclipse.paho/org.eclipse.paho.client.mqttv3 {:mvn/version "1.2.5"}
         org.lotuc/clojurewerkz_support {:mvn/version "1.6.210"}
         org.lotuc/clojurewerkz_propertied {:mvn/version "1.4.97"}}
  :aliases
- {:build {:deps {io.github.clojure/tools.build {:mvn/version "0.9.4"}
-                 slipset/deps-deploy {:mvn/version "0.2.1"}}
+ {:build {:deps {io.github.clojure/tools.build {:mvn/version "0.10.4"}
+                 slipset/deps-deploy {:mvn/version "0.2.2"}}
           :ns-default build}
   :test {:extra-paths ["test"]
          :extra-deps {org.clojure/test.check {:mvn/version "1.1.1"}
